@@ -16,7 +16,7 @@ We used Logistic Regression and Random Forest for the task of line outage identi
 ## Cite
 Please cite our paper if you use this code in your own work:
 
-@inproceedings{he2018machine,
+@inproceedings{he2018machine, \\
 title={A Machine Learning Approach for Line Outage Identification in Power Systems},
 author={He, Jia and Cheng, Maggie X and Fang, Yixin and Crow, Mariesa L},
 booktitle={International Conference on Machine Learning, Optimization, and Data Science},
