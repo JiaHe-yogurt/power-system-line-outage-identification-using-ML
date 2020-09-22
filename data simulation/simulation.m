@@ -5,7 +5,7 @@ initpsat
 clpsat.readfile=0
 runpsat('d039_dyn_copy.m','/path','data')
 runpsat('pf')
-runpsat('p_test_39.m','/path','pert')
+runpsat('pert.m','/path','pert')
  
 % no outage
 initial=PQ.con(:,[4,5]);
@@ -41,7 +41,7 @@ initpsat
 clpsat.readfile=0
 runpsat('bus118.m','/path','data')
 runpsat('pf')
-runpsat('p_118_aro.m','/path','pert')
+# runpsat('p_118_aro.m','/path','pert')
 Settings.tf=100;      %%%%  remember to change TIME in pert file also
 
 test_time=600 %number of trial
